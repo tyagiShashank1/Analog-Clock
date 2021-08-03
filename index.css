@@ -1,0 +1,65 @@
+.clockcontainer{
+    height: 35vw;
+    width: 35vw;
+    background: url('clock.png') no-repeat;
+    background-size: 100%;
+    position:relative;
+    margin: auto;
+    top: 80px;
+
+}
+#hour, #minute, #second{
+    background-color:black;
+    position: absolute;
+    border-radius: 12px;
+    transform-origin: bottom;
+}
+#hour{
+    height: 30.5%;
+    width: 3.5%;
+    top: 18%;
+    left: 48.3%;
+    opacity: 0.8;
+    
+
+}
+#minute{
+    height: 38%;
+    width: 1.6%;
+    top: 12%;
+    left: 48.8%;
+    opacity: 0.8;
+    
+}
+#second{
+    height: 39%;
+    width: 1%;
+    top: 12%;
+    left: 49.3%;
+    opacity: 0.8;
+}
+
+
+/* digital clock css */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+.bg-light{
+    background-color: #b8ba76 !important;
+}
+.jumbotron{
+    background-color: #e7f4cd;
+    padding: 17px 18px;
+}
+.display-4{
+    font-family: 'Roboto Mono', monospace;
+} 
+#time{
+    font-family: 'Orbitron', sans-serif;
+}
+.container{
+    position: relative;
+    top:80px;
+
+}
